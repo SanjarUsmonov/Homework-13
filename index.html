@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>13-dars</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+			integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- Rasmlarni optimizatsiya qilish, dropdown menu yashash mashqi positionlar bilan ishlash -->
+		<header class="header">
+			<div class="container">
+				<nav class="site-nav flex">
+					<a href="#" class="site-nav__logo site-nav__link"
+						>Eductaion</a
+					>
+					<ul class="site-nav__list flex">
+						<li class="site-nav__item flex">
+							<span class="site-nav__item-text">Home</span>
+							<span
+								class="site-nav__item-icon fa-solid fa-angle-down"
+							></span>
+							<ul class="drop-list">
+								<li class="drop-list__item">
+								<li class="site-nav__item flex">
+							<span class="site-nav__item-text">Projects</span>
+							<span
+								class="site-nav__item-icon fa-solid fa-angle-right"
+							></span>
+							<ul class="drop-list__menu">
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Hamkorlik</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Shartnomalar</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Muhokama</a
+									>
+								</li>
+							</ul>
+						</li>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Clients</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Prices</a
+									>
+								</li>
+							</ul>
+						</li>
+						<li class="site-nav__item flex">
+							<span class="site-nav__item-text">Courses</span>
+							<span
+								class="site-nav__item-icon fa-solid fa-angle-down"
+							></span>
+							<ul class="drop-list">
+								<li class="drop-list__item">
+								<li class="site-nav__item flex">
+							<span class="site-nav__item-text">Language</span>
+							<span
+								class="site-nav__item-icon fa-solid fa-angle-right"
+							></span>
+							<ul class="drop-list__menu">
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Russian</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Arabic</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>English</a
+									>
+								</li>
+							</ul>
+						</li>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Clients</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Prices</a
+									>
+								</li>
+							</ul>
+						</li>
+                        <li class="site-nav__item flex">
+							<span class="site-nav__item-text">Page</span>
+							<span
+								class="site-nav__item-icon fa-solid fa-angle-down"
+							></span>
+							<ul class="drop-list">
+								<li class="drop-list__item">
+								<li class="site-nav__item flex">
+							<span class="site-nav__item-text">Projects</span>
+							<span
+								class="site-nav__item-icon fa-solid fa-angle-right"
+							></span>
+							<ul class="drop-list__menu">
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Hamkorlik</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Shartnomalar</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Muhokama</a
+									>
+								</li>
+							</ul>
+						</li>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Clients</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Prices</a
+									>
+								</li>
+							</ul>
+						</li>
+                        <li class="site-nav__item flex">
+							<span class="site-nav__item-text">Blog</span>
+							<span
+								class="site-nav__item-icon fa-solid fa-angle-down"
+							></span>
+							<ul class="drop-list">
+								<li class="drop-list__item">
+								<li class="site-nav__item flex">
+							<span class="site-nav__item-text">Projects</span>
+							<span
+								class="site-nav__item-icon fa-solid fa-angle-right"
+							></span>
+							<ul class="drop-list__menu">
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Hamkorlik</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Shartnomalar</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Muhokama</a
+									>
+								</li>
+							</ul>
+						</li>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Clients</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Prices</a
+									>
+								</li>
+							</ul>
+						</li>
+                        <li class="site-nav__item flex">
+							<span class="site-nav__item-text">Contact</span>
+							<span
+								class="site-nav__item-icon fa-solid fa-angle-down"
+							></span>
+							<ul class="drop-list">
+								<li class="drop-list__item">
+								<li class="site-nav__item flex">
+							<span class="site-nav__item-text">Projects</span>
+							<span
+								class="site-nav__item-icon fa-solid fa-angle-right"
+							></span>
+							<ul class="drop-list__menu">
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Hamkorlik</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Shartnomalar</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Muhokama</a
+									>
+								</li>
+							</ul>
+						</li>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Clients</a
+									>
+								</li>
+								<li class="drop-list__item">
+									<a
+										href="#"
+										class="drop-list__link site-nav__link"
+										>Prices</a
+									>
+								</li>
+							</ul>
+						</li>
+                        </ul>
+                        <div class="site-nav__button">
+                            <a class="site-nav__link" href="#">Singin</a>
+                            <button class="site-nav__button">Sing Up</button>
+                        </div>
+				</nav>
+                <div class="subject-content">
+                    <div class="subject-content__subject flex">
+                        <h1 class="subject-content__h1">Self-Paced Learning Courses Online</h1>  
+                        <p class="subject-content__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam elementum. Urna, posuere nisi sit gravida massa. Ultrices bibendum sagittis pellentesque vitae sit.  </p>
+                        <button class="subject-content__button">Start a coures</button>
+                    </div>
+                </div>
+                <div class="menu-bar">
+                    <div class="menu-bar__service flex">
+                        <div class="menu-bar__serives flex">
+                            <div class="menu-bar__inside">
+                                <img src="Images/2.png" alt="">
+                            </div>
+                            <div class="menu-bar__content">
+                                <h3>1400+</h3>
+                                <p>Online Courses</p>
+                            </div>
+                        </div>
+                        <div class="menu-bar__serives flex">
+                            <div class="menu-bar__inside">
+                                <img src="Images/3.png" alt="">
+                            </div>
+                            <div class="menu-bar__content">
+                                <h3>1100+</h3>
+                                <p>Expert Instructors</p>
+                            </div>
+                        </div>
+                        <div class="menu-bar__serives flex">
+                            <div class="menu-bar__inside">
+                                <img src="Images/4.png" alt="">
+                            </div>
+                            <div class="menu-bar__content">
+                                <h3>800+</h3>
+                                <p>Success Stories</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-page flex">
+                    <div class="content-page__main">
+                        <h2 class="content-page__h2">Find Your Course That Makes Bright Future</h2>
+                        <p class="content-page__p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies at diam magnis faucibus et faucibus gravida.  malesuada fauci bus iaculis eu. Fusce est, consectetur tempor penatibus sed. Ut dolor, vulputate quam nec aliquam aliquam nisl. Auctor eros, iaculis quam nisi, </p>
+                        <p class="content-page__p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et hendrerit euismod fusce sit. </p>
+                        <button class="content-page__button">Learn More</button>
+                    </div>
+                    <div class="content-page__img flex">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <h1 class="subject">How It Work</h1>
+                <p class="subp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et hendrerit euismod fusce sit. </p>
+                <div class="middle-text flex">
+                    <div class="middle-text__box">
+                       <img src="Images/7.png" alt="">
+                       <h3 class="middle-text__h3">Learn More Online</h3>
+                       <p class="middle-text__p">Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Aliquam et hendrer it eui smod fusce sit.</p>
+                    </div>
+                    <div class="middle-text flex">
+                        <div class="middle-text__box">
+                           <img src="Images/8.png" alt="">
+                           <h3 class="middle-text__h3">Writing Notes</h3>
+                           <p class="middle-text__p">Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Aliquam et hendrer it eui smod fusce sit.</p>
+                        </div>
+                    </div>
+                    <div class="middle-text flex">
+                        <div class="middle-text__box">
+                           <img src="Images/9.png" alt="">
+                           <h3 class="middle-text__h3">Interactive Sessions</h3>
+                           <p class="middle-text__p">Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Aliquam et hendrer it eui smod fusce sit.</p>
+                        </div>
+                    </div>
+                    <div class="middle-text flex">
+                        <div class="middle-text__box">
+                           <img src="Images/10.png" alt="">
+                           <h3 class="middle-text__h3">Life Time Support</h3>
+                           <p class="middle-text__p">Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Aliquam et hendrer it eui smod fusce sit.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="middle-box flex">
+                        <h1 class="middle-box__subject2">Our All The Online Courses</h1>
+                        <p class="middle-box__subp2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="middle-box-pro">
+                            <div class="middle-box__box">
+                                <div class="middle-box__card">
+                                    <img src="Images/11.png" alt="">
+                                    <div class="middle-box__p flex">
+                                        <div class="middle-box__fun flex">
+                                            <i class="fa-solid fa-user-large"></i>
+                                            <p>5.8K</p>
+                                        </div>
+                                        <div class="middle-box__fun flex">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <p>69K</p>
+                                        </div>
+                                        <div class="middle-box__fun flex">
+                                            <i class="fa-solid fa-star"></i>
+                                            <p>4.5K</p>
+                                        </div>
+                                        <div class="middle-box__fun flex">
+                                            <img src="Images/Ellipse 18.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="middle-box__work flex">
+                                        <h3>Development</h3>
+                                        <p class="middle-box__p2">150$</p>
+                                    </div>
+                                    <p class="middle-box__p3">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+                            <div class="middle-box__box">
+                                <div class="middle-box__card">
+                                    <img src="Images/12.png" alt="">
+                                    <div class="middle-box__p flex">
+                                        <div class="middle-box__fun flex">
+                                            <i class="fa-solid fa-user-large"></i>
+                                            <p>5.8K</p>
+                                        </div>
+                                        <div class="middle-box__fun flex">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <p>69K</p>
+                                        </div>
+                                        <div class="middle-box__fun flex">
+                                            <i class="fa-solid fa-star"></i>
+                                            <p>4.5K</p>
+                                        </div>
+                                        <div class="middle-box__fun flex">
+                                            <img src="Images/Ellipse 18.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="middle-box__work flex">
+                                        <h3>Android Developer</h3>
+                                        <p class="middle-box__p2">130$</p>
+                                    </div>
+                                    <p class="middle-box__p3">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+                            <div class="middle-box__box">
+                                <div class="middle-box__card">
+                                    <img src="Images/13.png" alt="">
+                                    <div class="middle-box__p flex">
+                                        <div class="middle-box__fun flex">
+                                            <i class="fa-solid fa-user-large"></i>
+                                            <p>5.8K</p>
+                                        </div>
+                                        <div class="middle-box__fun flex">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <p>69K</p>
+                                        </div>
+                                        <div class="middle-box__fun flex">
+                                            <i class="fa-solid fa-star"></i>
+                                            <p>4.5K</p>
+                                        </div>
+                                        <div class="middle-box__fun flex">
+                                            <img src="Images/Ellipse 18.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="middle-box__work flex">
+                                        <h3>Java Script Course</h3>
+                                        <p class="middle-box__p2">140$</p>
+                                    </div>
+                                    <p class="middle-box__p3">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="middle-box-pro">
+                                <div class="middle-box__box">
+                                    <div class="middle-box__card">
+                                        <img src="Images/14.png" alt="">
+                                        <div class="middle-box__p flex">
+                                            <div class="middle-box__fun flex">
+                                                <i class="fa-solid fa-user-large"></i>
+                                                <p>5.8K</p>
+                                            </div>
+                                            <div class="middle-box__fun flex">
+                                                <i class="fa-solid fa-eye"></i>
+                                                <p>69K</p>
+                                            </div>
+                                            <div class="middle-box__fun flex">
+                                                <i class="fa-solid fa-star"></i>
+                                                <p>4.5K</p>
+                                            </div>
+                                            <div class="middle-box__fun flex">
+                                                <img src="Images/Ellipse 18.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="middle-box__work flex">
+                                            <h3>Development</h3>
+                                            <p class="middle-box__p2">120$</p>
+                                        </div>
+                                        <p class="middle-box__p3">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
+                                    </div>
+                                </div>
+                                <div class="middle-box__box">
+                                    <div class="middle-box__card">
+                                        <img src="Images/15.png" alt="">
+                                        <div class="middle-box__p flex">
+                                            <div class="middle-box__fun flex">
+                                                <i class="fa-solid fa-user-large"></i>
+                                                <p>5.8K</p>
+                                            </div>
+                                            <div class="middle-box__fun flex">
+                                                <i class="fa-solid fa-eye"></i>
+                                                <p>69K</p>
+                                            </div>
+                                            <div class="middle-box__fun flex">
+                                                <i class="fa-solid fa-star"></i>
+                                                <p>4.5K</p>
+                                            </div>
+                                            <div class="middle-box__fun flex">
+                                                <img src="Images/Ellipse 18.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="middle-box__work flex">
+                                            <h3>Android Developer</h3>
+                                            <p class="middle-box__p2">120$</p>
+                                        </div>
+                                        <p class="middle-box__p3">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
+                                    </div>
+                                </div>
+                                <div class="middle-box__box">
+                                    <div class="middle-box__card">
+                                        <img src="Images/16.png" alt="">
+                                        <div class="middle-box__p flex">
+                                            <div class="middle-box__fun flex">
+                                                <i class="fa-solid fa-user-large"></i>
+                                                <p>5.8K</p>
+                                            </div>
+                                            <div class="middle-box__fun flex">
+                                                <i class="fa-solid fa-eye"></i>
+                                                <p>69K</p>
+                                            </div>
+                                            <div class="middle-box__fun flex">
+                                                <i class="fa-solid fa-star"></i>
+                                                <p>4.5K</p>
+                                            </div>
+                                            <div class="middle-box__fun flex">
+                                                <img src="Images/Ellipse 18.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="middle-box__work flex">
+                                            <h3>Java Script Course</h3>
+                                            <p class="middle-box__p2">100$</p>
+                                        </div>
+                                        <p class="middle-box__p3">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="middle-box__button flex">View All Course</button>
+                    </div>
+			</div>   
+		</header>
+     
+	</body>
+</html>

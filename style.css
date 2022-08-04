@@ -656,6 +656,9 @@ html {
     color: #222222;
     margin-top: 7px;
 }
+.fa-angle-right{
+    color: #086CF9;
+}
 .form-part{
     flex-direction: column;
     align-items: center;
@@ -701,10 +704,8 @@ input{
     border:none;
     outline: none;
 }
-footer{
-    width: 1px;
-    background: #a2b1c7;
-    height: 470px;
+.center{
+    background-color:#D3E5FE;
 }
 .footer__content{
     height: 421px;
@@ -728,6 +729,10 @@ footer{
 }
 .footer__part{
     padding-top: 50px;
+}
+.footer__icon--square i{
+    font-size: 25px;
+    color: #086CF9;
 }
 .footerheadertext{
     font-style: normal;
@@ -792,4 +797,8 @@ text-decoration: none;
     font-size: 20px;
     color: #FFFFFF;
     margin-left: 10px;
+}
+
+.form-part button{
+    margin-right: 10px;
 }
